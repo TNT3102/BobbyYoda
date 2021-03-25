@@ -61,8 +61,7 @@ rightFront = new CANSparkMax(6, MotorType.kBrushed);
  
  
 
-rightrear = new CANSparkMax(7,MotorType.kBrushed);
- 
+rightrear = new CANSparkMax(7, MotorType.kBrushed);
  
 
 SpeedControllerGroup rightSpeedControlerGroup = new SpeedControllerGroup(rightFront, rightrear  );
