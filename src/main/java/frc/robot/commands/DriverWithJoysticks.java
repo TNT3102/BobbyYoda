@@ -54,7 +54,7 @@ public class DriverWithJoysticks extends CommandBase {
     @Override
     public void execute() {
         double leftSpeed = m_leftJoystick.getRawAxis(1);
-        double rightSpeed = -m_rightJoystick.getRawAxis(1);
+        double rightSpeed = m_rightJoystick.getRawAxis(1);
         m_drivetrain.my_DriveTankDrive(leftSpeed, rightSpeed);
 
     }
