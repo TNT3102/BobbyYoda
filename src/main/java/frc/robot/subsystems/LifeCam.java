@@ -13,7 +13,7 @@ public class LifeCam extends CommandBase {
   /** Creates a new LimeLight. */
   //public LimeLight() {
     // Use addRequirements() here to declare subsystem dependencies.
-  }
+  //}
 
 
   // Called when the command is initially scheduled.
