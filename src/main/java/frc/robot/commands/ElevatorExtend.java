@@ -53,13 +53,13 @@ public class ElevatorExtend extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        m_elevator.my_ElevatorRun(1.0); 
+        m_elevator.my_ElevatorDeploy(1.0); 
     }
 
     // Called once the command ends or is interrupted.
     @Override
     public void end(boolean interrupted) {
-        m_elevator.my_ElevatorRun(0.0);
+        m_elevator.my_ElevatorDeploy(0.0);
     }
 
     // Returns true when the command should end.
